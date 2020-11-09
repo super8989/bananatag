@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './password.scss';
 
 function Password() {
 	const [password, setPassword] = useState('');
