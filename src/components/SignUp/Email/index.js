@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './email.scss';
 
 function Email() {
 	const [email, setEmail] = useState('');
