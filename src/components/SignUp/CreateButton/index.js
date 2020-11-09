@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Password() {
+function CreateButton() {
 	return (
-		<div className='password'>
+		<div className='button'>
 			<span>create account</span>
 		</div>
 	);
 }
 
-export default Password;
+export default CreateButton;

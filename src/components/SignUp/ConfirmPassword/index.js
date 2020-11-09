@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function ConfirmPassword() {
+	const [confirmPassword, setConfirmPassword] = useState('');
+
+	const handlePasswordInput = (password) => {
+		setConfirmPassword(password);
+	};
+
 	return (
-		<div className='confirm-password'>
-			<span>confirm password input</span>
+		<div className='password'>
+			<input
+				type='password'
+				placeholder='Confirm Password'
+				value={confirmPassword}
+				onChange={(e) => handlePasswordInput(e.target.value)}
+			/>
 		</div>
 	);
 }
