@@ -3,7 +3,7 @@ import React from 'react';
 function Password() {
 	return (
 		<div className='password'>
-			<span>password input</span>
+			<span>create account</span>
 		</div>
 	);
 }
