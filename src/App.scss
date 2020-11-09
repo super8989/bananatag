@@ -1,8 +1,9 @@
 .app {
 	height: 100vh;
+	overflow: scroll;
 
 	&--container {
 		width: 50%;
-		margin: 4rem 0 0 4rem;
+		margin: 4rem 0 0 10rem;
 	}
 }

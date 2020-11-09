@@ -1,0 +1,21 @@
+button {
+	width: 30rem;
+	height: 4rem;
+	background-color: #076db1;
+	box-sizing: border-box;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	cursor: pointer;
+	transition: all 0.2s linear;
+
+	&:hover {
+		transform: scale(1.05);
+	}
+}

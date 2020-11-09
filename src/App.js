@@ -12,8 +12,8 @@ function App() {
 				<Logo />
 				<Header />
 				<SignUp />
-				<Footer />
 			</div>
+			<Footer />
 		</div>
 	);
 }
